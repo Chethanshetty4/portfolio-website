@@ -437,7 +437,7 @@
 		
 		@media only screen and (max-width:550px)
 		{
-				.linkedin1 .fa-linkedin:active{
+			.linkedin1 .fa-linkedin:active{
 			transform: scale(1.2);
 			transition: all 0.3s;
 			color: #052029;
@@ -455,8 +455,40 @@
 		}
 			
 			nav .menulist.open{
-				width: 100%;
-				right: 0px;
+				width: 90%;
+				left: 26px;
 			}
 			
+		}
+
+		@media only screen and (max-width:530px)
+		{
+			nav .menulist.open{
+				width: 90%;
+				left: 23px;
+			}
+		}
+
+		@media only screen and (max-width:480px)
+		{
+			nav .menulist.open{
+				width: 90%;
+				left: 20px;
+			}
+		}
+
+		@media only screen and (max-width:430px)
+		{
+			nav .menulist.open{
+			width: 90%;
+			left: 17px;
+			}
+		}
+
+		@media only screen and (max-width:415px)
+		{
+			nav .menulist.open{
+			width: 90%;
+			position: absolute;
+			}
 		}
