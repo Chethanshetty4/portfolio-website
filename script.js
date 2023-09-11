@@ -1,7 +1,6 @@
 let menu = document.querySelector('#menu-icon');
 let menulist = document.querySelector('.menulist');
 
-menu.onclick = () => {
-	menu.classList.toggle('dummy');
+menu.addEventListener('click', ()=>{
 	menulist.classList.toggle('open');
-}
+})
